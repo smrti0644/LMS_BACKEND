@@ -15,7 +15,7 @@ app.use('/uploads/thumbnail',express.static(path.join(__dirname,'uploads/thumbna
 app.use('/uploads/video',express.static(path.join(__dirname,'uploads/videos')));
 
 app.use(cors({
-  origin: 'https://lms-frontend-sepia-six.vercel.app/',
+  origin: 'https://lms-frontend-sepia-six.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE']
 }));
 
